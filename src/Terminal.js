@@ -11,7 +11,7 @@ export default ({title, icon, response}) => {
       </div>
       <div className="terminal-content">
         <div id="screen">
-          <p className="font">root@cerkinfo:~$ {title}</p>
+          <p className="font">root@cerkinfo:~# {title}</p>
           > <i className={"fa fa-" + icon} aria-hidden="true"></i> {response}
         </div>
       </div>
